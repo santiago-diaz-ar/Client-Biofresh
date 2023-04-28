@@ -6,9 +6,21 @@ const Landing = () => {
     <div>
       <h1>Busca y compra los productos naturales de tu interes</h1>
 
-      <input type="email" name="" id="" placeholder="email" />
+      <input
+        type="email"
+        name=""
+        id=""
+        placeholder="email"
+        className={style.email}
+      />
       <br />
-      <input type="password" name="" id="" placeholder="contraseña" />
+      <input
+        type="password"
+        name=""
+        id=""
+        placeholder="contraseña"
+        className={style.contraseña}
+      />
       <br />
       <button className={style.ingresar}>
         <Link>ingresar</Link>
